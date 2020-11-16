@@ -4,11 +4,15 @@ body {
     margin: 0px;
 }
 
+img {  
+    
+}
 .page {
     margin: 0px;
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 70px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -20,23 +24,34 @@ body {
     width: 100%;
     height: 50px;
     color: rgb(54, 54, 54);
+    display: flex;
  }
 
- .logo {
-     width: 30%;
-     height: 100%;
-     margin-top: -6px;
-     margin-left: 400px;
-     border-bottom: 20px;
+.logo {
+    height: 100%;
+    margin: auto;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 2px;
+    
  }
 
-
+ .lussebild {
+     margin-left: 0px;
+ }
 
  .lussetext{
      text-align: center;
-     font-weight: 900;
-     font-size: 20px;
-     margin-top: 6px;
+     font-weight: 1000;
+     font-size: 48px;
+     margin-top: 0px
+     
+ }
+
+ .menu {
+     width: 50px;
+     height: 50px;
+     background-color: rgb(129, 129, 129);
  }
 
 .genjiimage{
@@ -45,6 +60,9 @@ body {
     width: 33%;
 }
 
+.a {
+    display: block;
+}
 main {
     height: 100%;
 }
